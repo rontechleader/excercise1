@@ -1,5 +1,5 @@
 // written by: Ron Breger
-const utils = require("./utils");
+const utils = require("./utils").default.default;
 const name="Ron";
 
 console.log(name);
